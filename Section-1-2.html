@@ -14,7 +14,7 @@
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Worksheet 7.3, Constrained Optimization</title>
+<title>1.2 Row Reduction and Echelon Forms</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
@@ -135,7 +135,7 @@ eBookConfig.enable_chatcodes =  false;
 <textarea class="embed-code-textbox" id="embed-code-textbox" readonly aria-label="textbox"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button class="copy-embed-button button" id="copy-embed-button" title="Copy embed code"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
 </div>
 </div>
-<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="chapter-7-ws-4.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter-7-ws.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="chapter-7-ws-6.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="Section-1-1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="chapter-1-ws.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="Section-1-3.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\foo}{b^{ar}}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
@@ -145,16 +145,16 @@ eBookConfig.enable_chatcodes =  false;
 \)</span></div>
 <div class="ptx-page">
 <div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
-<li class="toc-item toc-chapter">
+<li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="chapter-1-ws.html" class="internal"><span class="codenumber">1</span> <span class="title">Chapter 1 Worksheets</span></a></div>
-<ul class="structural toc-item-list">
+<ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="Section-1-1.html" class="internal"><span class="title">1.1 Systems of Linear Equations</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="Section-1-1.html#Section-1-1-2" class="internal"><span class="title">Worksheet 1.1, Systems of Linear Equations</span></a></div></li></ul>
 </li>
-<li class="toc-item toc-section">
+<li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="Section-1-2.html" class="internal"><span class="title">1.2 Row Reduction and Echelon Forms</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="Section-1-2.html#Section-1-2-2" class="internal"><span class="title">Worksheet 1.2, Row Reduction and Echelon Forms</span></a></div></li></ul>
+<ul class="structural toc-item-list active"><li class="toc-item toc-handout"><div class="toc-title-box"><a href="Section-1-2.html#Section-1-2-2" class="internal"><span class="title">Worksheet 1.2, Row Reduction and Echelon Forms</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="Section-1-3.html" class="internal"><span class="title">1.3 Vector Equations</span></a></div>
@@ -220,13 +220,13 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-handout"><div class="toc-title-box"><a href="chapter-6-ws-6.html" class="internal"><span class="title">Worksheet 6.5 and 6.6, Least‑Squares Problems, Applications to Linear Models</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-chapter contains-active">
+<li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="chapter-7-ws.html" class="internal"><span class="codenumber">7</span> <span class="title">Chapter 7 Worksheets</span></a></div>
-<ul class="structural toc-item-list contains-active">
+<ul class="structural toc-item-list">
 <li class="toc-item toc-handout"><div class="toc-title-box"><a href="chapter-7-ws-2.html" class="internal"><span class="title">Worksheet 10.2, The Steady‑State Vector and Page Rank</span></a></div></li>
 <li class="toc-item toc-handout"><div class="toc-title-box"><a href="chapter-7-ws-3.html" class="internal"><span class="title">Worksheet 7.1, Diagonalization of Symmetric Matrices</span></a></div></li>
 <li class="toc-item toc-handout"><div class="toc-title-box"><a href="chapter-7-ws-4.html" class="internal"><span class="title">Worksheet 7.2, Quadratic Forms</span></a></div></li>
-<li class="toc-item toc-handout active"><div class="toc-title-box"><a href="chapter-7-ws-5.html" class="internal"><span class="title">Worksheet 7.3, Constrained Optimization</span></a></div></li>
+<li class="toc-item toc-handout"><div class="toc-title-box"><a href="chapter-7-ws-5.html" class="internal"><span class="title">Worksheet 7.3, Constrained Optimization</span></a></div></li>
 <li class="toc-item toc-handout"><div class="toc-title-box"><a href="chapter-7-ws-6.html" class="internal"><span class="title">Worksheet 7.4, The Singular Value Decomposition</span></a></div></li>
 </ul>
 </li>
@@ -260,88 +260,105 @@ eBookConfig.enable_chatcodes =  false;
 <button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
 </div>
 </div>
-<section class="handout" id="chapter-7-ws-5" data-margins="0.75in 0.75in 0.75in 0.75in"><h2 class="heading hide-type">
-<span class="type">Handout</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Worksheet 7.3, Constrained Optimization</span><div class="print-links"><a href="?printpreview=chapter-7-ws-5" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+<section class="section" id="Section-1-2"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">1.2 Row Reduction and Echelon Forms</span>
 </h2>
-<ul class="no-marker" id="chapter-7-ws-5-2">
-<li id="chapter-7-ws-5-2-1">
-<div class="para" id="chapter-7-ws-5-2-1-1">(1)   Indicate whether the statements are true or false.<div class="autopermalink" data-description="Paragraph"><a href="#chapter-7-ws-5-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="handout" id="Section-1-2-2" data-margins="0.75in 0.75in 0.75in 0.75in"><h3 class="heading hide-type">
+<span class="type">Handout</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Worksheet 1.2, Row Reduction and Echelon Forms</span><div class="print-links"><a href="?printpreview=Section-1-2-2" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h3>
+<ul class="no-marker" id="Section-1-2-2-2">
+<li id="Section-1-2-2-2-1">
+<div class="para" id="Section-1-2-2-2-1-1">(1)   <em class="emphasis">Written Explanation Exercise</em> Answer each of the following in one or two sentences.<div class="autopermalink" data-description="Paragraph"><a href="#Section-1-2-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<ol class="lower-alpha ol-marker-1" id="chapter-7-ws-5-2-1-2">
-<li id="chapter-7-ws-5-2-1-2-1">
-<div class="para" id="chapter-7-ws-5-2-1-2-1-1">The largest value of a positive definite quadratic form <span class="process-math">\(\vec{x}^T A \vec{x}\)</span> is the largest eigenvalue of <span class="process-math">\(A\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#chapter-7-ws-5-2-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<ol class="lower-alpha ol-marker-1" id="Section-1-2-2-2-1-2">
+<li id="Section-1-2-2-2-1-2-1">
+<div class="para" id="Section-1-2-2-2-1-2-1-1">What are some differences between echelon form and row‑reduced echelon form (RREF)? Give at least three.<div class="autopermalink" data-description="Paragraph"><a href="#Section-1-2-2-2-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#chapter-7-ws-5-2-1-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#Section-1-2-2-2-1-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="chapter-7-ws-5-2-1-2-2">
-<div class="para" id="chapter-7-ws-5-2-1-2-2-1">The largest value of a positive definite quadratic form <span class="process-math">\(\vec{x}^T A \vec{x}\)</span> subject to <span class="process-math">\(\|\vec{x}\| = 1\)</span> is the largest value on the diagonal of <span class="process-math">\(A\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#chapter-7-ws-5-2-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="Section-1-2-2-2-1-2-2">
+<div class="para" id="Section-1-2-2-2-1-2-2-1">How can row reduction be used to determine whether an augmented matrix corresponds to a consistent system?<div class="autopermalink" data-description="Paragraph"><a href="#Section-1-2-2-2-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#chapter-7-ws-5-2-1-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-</ol>
-<div class="workspace" data-space="2in"></div>
-<div class="autopermalink" data-description="Item"><a href="#chapter-7-ws-5-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="chapter-7-ws-5-2-2">
-<div class="para" id="chapter-7-ws-5-2-2-1">(2)   Calculate the maximum and minimum values of the quadratic form <span class="process-math">\(Q\)</span> subject to the constraint <span class="process-math">\(\|\vec{x}\| = 1\text{.}\)</span> Identify where this maximum is obtained.<div class="autopermalink" data-description="Paragraph"><a href="#chapter-7-ws-5-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para logical" id="chapter-7-ws-5-2-2-2">
-<div class="displaymath process-math" id="chapter-7-ws-5-2-2-2-1">
-\begin{equation*}
-Q(\vec{x}) = 4x_1^2 + x_2^2 + 4x_1x_2 + 3x_3^2,
-\quad
-\vec{x} \in \mathbb{R}^3.
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#chapter-7-ws-5-2-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="workspace" data-space="2in"></div>
-<div class="autopermalink" data-description="Item"><a href="#chapter-7-ws-5-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-</ul>
-<ul class="no-marker" id="chapter-7-ws-5-3">
-<li id="chapter-7-ws-5-3-1">
-<div class="para" id="chapter-7-ws-5-3-1-1">(3)   Calculate the maximum and minimum values of the quadratic form <span class="process-math">\(Q\)</span> subject to the constraints <span class="process-math">\(\|\vec{x}\| = 1\)</span> and <span class="process-math">\(\vec{x} \cdot \vec{u} = 0\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#chapter-7-ws-5-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para logical" id="chapter-7-ws-5-3-1-2">
-<div class="displaymath process-math" id="chapter-7-ws-5-3-1-2-1">
-\begin{equation*}
-Q(\vec{x}) = 4x_1^2 + x_2^2 + 4x_1x_2 + 3x_3^2,
-\quad
-\vec{u} =
-\begin{pmatrix}
-2 \\ 1 \\ 0
-\end{pmatrix}.
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#chapter-7-ws-5-3-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="workspace" data-space="2in"></div>
-<div class="autopermalink" data-description="Item"><a href="#chapter-7-ws-5-3-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="chapter-7-ws-5-3-2">
-<div class="para" id="chapter-7-ws-5-3-2-1">(4)   If possible, give examples of the following, or write “not possible”.<div class="autopermalink" data-description="Paragraph"><a href="#chapter-7-ws-5-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<ol class="lower-alpha ol-marker-1" id="chapter-7-ws-5-3-2-2">
-<li id="chapter-7-ws-5-3-2-2-1">
-<div class="para" id="chapter-7-ws-5-3-2-2-1-1">A quadratic form <span class="process-math">\(Q : \mathbb{R}^3 \to \mathbb{R}\)</span> that has maximum value <span class="process-math">\(12\text{,}\)</span> subject to the constraint <span class="process-math">\(\|\vec{x}\| = 1\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#chapter-7-ws-5-3-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#chapter-7-ws-5-3-2-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
-</li>
-<li id="chapter-7-ws-5-3-2-2-2">
-<div class="para" id="chapter-7-ws-5-3-2-2-2-1">A quadratic form <span class="process-math">\(Q : \mathbb{R}^3 \to \mathbb{R}\)</span> that has a maximum value <span class="process-math">\(4\)</span> at two distinct locations, subject to the constraint <span class="process-math">\(\|\vec{x}\| = 1\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#chapter-7-ws-5-3-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#chapter-7-ws-5-3-2-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#Section-1-2-2-2-1-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ol>
 <div class="workspace" data-space="2in"></div>
-<div class="autopermalink" data-description="Item"><a href="#chapter-7-ws-5-3-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#Section-1-2-2-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="Section-1-2-2-2-2">
+<div class="para" id="Section-1-2-2-2-2-1">(2)   Which matrices are in RREF? Which are in echelon form?<div class="autopermalink" data-description="Paragraph"><a href="#Section-1-2-2-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="Section-1-2-2-2-2-2">
+<div class="displaymath process-math" id="Section-1-2-2-2-2-2-1">
+\begin{equation*}
+A = \begin{pmatrix}0 &amp; 1 &amp; 2 &amp; 3\end{pmatrix},\quad
+B = \begin{pmatrix}
+1 &amp; 0 &amp; 0 &amp; 2 \\
+0 &amp; 1 &amp; 4 &amp; 0 \\
+0 &amp; 0 &amp; 0 &amp; 1
+\end{pmatrix},\quad
+C = \begin{pmatrix}
+0 &amp; 1 &amp; 0 &amp; 1 \\
+0 &amp; 0 &amp; 5 &amp; 5  
+\end{pmatrix}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Section-1-2-2-2-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2in"></div>
+<div class="autopermalink" data-description="Item"><a href="#Section-1-2-2-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="Section-1-2-2-2-3">
+<div class="para" id="Section-1-2-2-2-3-1">(3)   List all <span class="process-math">\(3 \times 2\)</span> matrices in RREF. Use <span class="process-math">\(\ast\)</span> for arbitrary entries.<div class="autopermalink" data-description="Paragraph"><a href="#Section-1-2-2-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2in"></div>
+<div class="autopermalink" data-description="Item"><a href="#Section-1-2-2-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="autopermalink" data-description="Handout: Worksheet 7.3, Constrained Optimization"><a href="#chapter-7-ws-5" title="Copy heading and permalink for Handout: Worksheet 7.3, Constrained Optimization" aria-label="Copy heading and permalink for Handout: Worksheet 7.3, Constrained Optimization">🔗</a></div></section>
+<ul class="no-marker" id="Section-1-2-2-3">
+<li id="Section-1-2-2-3-1">
+<div class="para" id="Section-1-2-2-3-1-1">(4)   Indicate whether the following statements are true or false.<div class="autopermalink" data-description="Paragraph"><a href="#Section-1-2-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ol class="lower-alpha ol-marker-1" id="Section-1-2-2-3-1-2">
+<li id="Section-1-2-2-3-1-2-1">
+<div class="para" id="Section-1-2-2-3-1-2-1-1">A linear system whose <span class="process-math">\(3 \times 5\)</span> coefficient matrix has three pivot columns must be consistent.<div class="autopermalink" data-description="Paragraph"><a href="#Section-1-2-2-3-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#Section-1-2-2-3-1-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="Section-1-2-2-3-1-2-2">
+<div class="para" id="Section-1-2-2-3-1-2-2-1">The echelon form of a coefficient matrix is unique.<div class="autopermalink" data-description="Paragraph"><a href="#Section-1-2-2-3-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#Section-1-2-2-3-1-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ol>
+<div class="workspace" data-space="1in"></div>
+<div class="autopermalink" data-description="Item"><a href="#Section-1-2-2-3-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="Section-1-2-2-3-2">
+<div class="para" id="Section-1-2-2-3-2-1">(5)   Construct the quadratic polynomial <span class="process-math">\(p(t) = a_0 + a_1 t + a_2 t^2\)</span> passing through <span class="process-math">\((1,12)\text{,}\)</span> <span class="process-math">\((2,15)\text{,}\)</span> and <span class="process-math">\((3,16)\text{.}\)</span> That is, solve<div class="autopermalink" data-description="Paragraph"><a href="#Section-1-2-2-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="Section-1-2-2-3-2-2">
+<div class="displaymath process-math" id="Section-1-2-2-3-2-2-1">
+\begin{equation*}
+\begin{aligned}
+p(1) \amp= 12 = a_0 + a_1 + a_2 \\
+p(2) \amp= 15 = a_0 + 2a_1 + 4a_2 \\
+p(3) \amp= 16 = a_0 + 3a_1 + 9a_2
+\end{aligned}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#Section-1-2-2-3-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="Section-1-2-2-3-2-3">(The coefficient matrix is an instance of the <em class="emphasis">Vandermonde matrix.</em>)<div class="autopermalink" data-description="Paragraph"><a href="#Section-1-2-2-3-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2in"></div>
+<div class="autopermalink" data-description="Item"><a href="#Section-1-2-2-3-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Handout: Worksheet 1.2, Row Reduction and Echelon Forms"><a href="#Section-1-2-2" title="Copy heading and permalink for Handout: Worksheet 1.2, Row Reduction and Echelon Forms" aria-label="Copy heading and permalink for Handout: Worksheet 1.2, Row Reduction and Echelon Forms">🔗</a></div></section><div class="autopermalink" data-description="Section: 1.2 Row Reduction and Echelon Forms"><a href="#Section-1-2" title="Copy heading and permalink for Section: 1.2 Row Reduction and Echelon Forms" aria-label="Copy heading and permalink for Section: 1.2 Row Reduction and Echelon Forms">🔗</a></div></section>
 </div>
 <div id="ptx-content-footer" class="ptx-content-footer">
-<a class="previous-button button" href="chapter-7-ws-4.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="chapter-7-ws-6.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="Section-1-1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="Section-1-3.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">

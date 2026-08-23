@@ -1,85 +1,85 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
-  "id": "chapter-1-ws-2",
+  "id": "Section-1-1",
   "level": "1",
-  "url": "chapter-1-ws-2.html",
-  "type": "Handout",
+  "url": "Section-1-1.html",
+  "type": "Section",
   "number": "",
-  "title": "Worksheet 1.1, Systems of Linear Equations",
-  "body": " Worksheet 1.1, Systems of Linear Equations    (1)   Indicate whether the statements are true or false.   If a linear system has more equations than unknowns, then the system cannot have a unique solution.  If a linear system has more unknowns than equations, then the system cannot have a unique solution.   Before moving on - what strategies does your TA(s) recommend that students can use to approach true\/false questions?    (2)   For what values of and , if any, does the system have each behavior below?   an infinite number of solutions  no solutions  exactly one solution      For the case where there are an infinite number of solutions, sketch the set of solutions. The sketch must have labeled axes, and the solution set should be drawn as a line without arrows.    (3)   From your TA’s perspective, what strategies do they recommend to ensure success in a college‑level linear algebra course? What strategies worked for them?  This worksheet is intentionally shorter to allow time for course and studio organization.    "
+  "title": "1.1 Systems of Linear Equations",
+  "body": " 1.1 Systems of Linear Equations   Worksheet 1.1, Systems of Linear Equations    (1)   Indicate whether the statements are true or false.   If a linear system has more equations than unknowns, then the system cannot have a unique solution.  If a linear system has more unknowns than equations, then the system cannot have a unique solution.   Before moving on - what strategies does your TA(s) recommend that students can use to approach true\/false questions?    (2)   For what values of and , if any, does the system have each behavior below?   an infinite number of solutions  no solutions  exactly one solution      For the case where there are an infinite number of solutions, sketch the set of solutions. The sketch must have labeled axes, and the solution set should be drawn as a line without arrows.    (3)   From your TA’s perspective, what strategies do they recommend to ensure success in a college‑level linear algebra course? What strategies worked for them?  This worksheet is intentionally shorter to allow time for course and studio organization.     "
 },
 {
-  "id": "chapter-1-ws-3",
+  "id": "Section-1-2",
   "level": "1",
-  "url": "chapter-1-ws-3.html",
-  "type": "Handout",
+  "url": "Section-1-2.html",
+  "type": "Section",
   "number": "",
-  "title": "Worksheet 1.2, Row Reduction and Echelon Forms",
-  "body": " Worksheet 1.2, Row Reduction and Echelon Forms    (1)   Written Explanation Exercise Answer each of the following in one or two sentences.   What are some differences between echelon form and row‑reduced echelon form (RREF)? Give at least three.  How can row reduction be used to determine whether an augmented matrix corresponds to a consistent system?     (2)   Which matrices are in RREF? Which are in echelon form?       (3)   List all matrices in RREF. Use for arbitrary entries.      (4)   Indicate whether the following statements are true or false.   A linear system whose coefficient matrix has three pivot columns must be consistent.  The echelon form of a coefficient matrix is unique.     (5)   Construct the quadratic polynomial passing through , , and . That is, solve     (The coefficient matrix is an instance of the Vandermonde matrix. )    "
+  "title": "1.2 Row Reduction and Echelon Forms",
+  "body": " 1.2 Row Reduction and Echelon Forms   Worksheet 1.2, Row Reduction and Echelon Forms    (1)   Written Explanation Exercise Answer each of the following in one or two sentences.   What are some differences between echelon form and row‑reduced echelon form (RREF)? Give at least three.  How can row reduction be used to determine whether an augmented matrix corresponds to a consistent system?     (2)   Which matrices are in RREF? Which are in echelon form?       (3)   List all matrices in RREF. Use for arbitrary entries.      (4)   Indicate whether the following statements are true or false.   A linear system whose coefficient matrix has three pivot columns must be consistent.  The echelon form of a coefficient matrix is unique.     (5)   Construct the quadratic polynomial passing through , , and . That is, solve     (The coefficient matrix is an instance of the Vandermonde matrix. )     "
 },
 {
-  "id": "chapter-1-ws-4",
+  "id": "Section-1-3",
   "level": "1",
-  "url": "chapter-1-ws-4.html",
-  "type": "Handout",
+  "url": "Section-1-3.html",
+  "type": "Section",
   "number": "",
-  "title": "Worksheet 1.3, Vector Equations",
-  "body": " Worksheet 1.3, Vector Equations    (1)   Written Explanation Exercise   What does the span of a set of vectors represent?  How can we determine whether a vector is in the span of a set of vectors?     (2)   Suppose .    Sketch the span of the columns of the matrix. Label your axes. Use arrows for coordinate axes and vectors (because they are quantities with direction), but do not sketch the span of a set of vectors with arrows.    On the same graph, sketch the vectors and .    Using your graph, determine which of the following systems is consistent:          "
+  "title": "1.3 Vector Equations",
+  "body": " 1.3 Vector Equations   Worksheet 1.3, Vector Equations    (1)   Written Explanation Exercise   What does the span of a set of vectors represent?  How can we determine whether a vector is in the span of a set of vectors?     (2)   Suppose .    Sketch the span of the columns of the matrix. Label your axes. Use arrows for coordinate axes and vectors (because they are quantities with direction), but do not sketch the span of a set of vectors with arrows.    On the same graph, sketch the vectors and .    Using your graph, determine which of the following systems is consistent:           "
 },
 {
-  "id": "chapter-1-ws-5",
+  "id": "Section-1-4",
   "level": "1",
-  "url": "chapter-1-ws-5.html",
-  "type": "Handout",
+  "url": "Section-1-4.html",
+  "type": "Section",
   "number": "",
-  "title": "Worksheet 1.4, The Matrix Equation",
-  "body": " Worksheet 1.4, The Matrix Equation    (1)   is equal to which of the expressions below?         (2)   For what values of is in the plane spanned by and ?       (3)   Indicate whether the statements are true or false.   If the equation is inconsistent, then is not in the set spanned by the columns of .  If the augmented matrix has a pivot position in every row, then the equation must be consistent.  There are exactly three vectors in .     "
+  "title": "1.4 The Matrix Equation <span class=\"process-math\">\\(A \\vec{x} = \\vec{b}\\)<\/span>",
+  "body": " 1.4 The Matrix Equation   Worksheet 1.4, The Matrix Equation    (1)   is equal to which of the expressions below?         (2)   For what values of is in the plane spanned by and ?       (3)   Indicate whether the statements are true or false.   If the equation is inconsistent, then is not in the set spanned by the columns of .  If the augmented matrix has a pivot position in every row, then the equation must be consistent.  There are exactly three vectors in .      "
 },
 {
-  "id": "chapter-1-ws-6",
+  "id": "Section-1-5",
   "level": "1",
-  "url": "chapter-1-ws-6.html",
-  "type": "Handout",
+  "url": "Section-1-5.html",
+  "type": "Section",
   "number": "",
-  "title": "Worksheet 1.5, Solution Sets of Linear Systems",
-  "body": " Worksheet 1.5, Solution Sets of Linear Systems    (1)   Written Explanation Exercise    When a homogeneous system has a nontrivial solution, what properties does that system have? List at least two.      (2)   Indicate whether the statements are true or false.    A non‑trivial solution to has all non‑zero entries.    If and , then .    Any matrix with two pivotal positions has a non‑trivial solution to .        (3)   Example Construction     Give an example of a non‑zero matrix such that is a solution of .    Give an example of a non‑trivial solution to , where .      (4)   Express the solution to in parametric vector form, where   .    "
+  "title": "1.5 Solution Sets of Linear Systems",
+  "body": " 1.5 Solution Sets of Linear Systems   Worksheet 1.5, Solution Sets of Linear Systems    (1)   Written Explanation Exercise    When a homogeneous system has a nontrivial solution, what properties does that system have? List at least two.      (2)   Indicate whether the statements are true or false.    A non‑trivial solution to has all non‑zero entries.    If and , then .    Any matrix with two pivotal positions has a non‑trivial solution to .        (3)   Example Construction     Give an example of a non‑zero matrix such that is a solution of .    Give an example of a non‑trivial solution to , where .      (4)   Express the solution to in parametric vector form, where   .     "
 },
 {
-  "id": "chapter-1-ws-7",
+  "id": "Section-1-7",
   "level": "1",
-  "url": "chapter-1-ws-7.html",
-  "type": "Handout",
+  "url": "Section-1-7.html",
+  "type": "Section",
   "number": "",
-  "title": "Worksheet 1.7, Linear Independence",
-  "body": " Worksheet 1.7, Linear Independence    (1)   Written Explanation Exercise   How are span and linear dependence related to each other?   Suppose is a linear map.   If are dependent, why are dependent?  If are independent, need be independent?       (2)   In the problems below, are three linearly independent vectors in . Which of the collections of vectors below are linearly independent?         (3)   For what values of are the columns of linearly dependent?         (4)   A matrix has all non‑zero columns, and . Identify a non‑trivial solution to .    (5)   Short answer questions.   The columns of a matrix are linearly independent. How many pivots does the matrix have?  If the columns of a matrix span , how many pivots does the matrix have?     "
+  "title": "1.7 Linear Independence",
+  "body": " 1.7 Linear Independence   Worksheet 1.7, Linear Independence    (1)   Written Explanation Exercise   How are span and linear dependence related to each other?   Suppose is a linear map.   If are dependent, why are dependent?  If are independent, need be independent?       (2)   In the problems below, are three linearly independent vectors in . Which of the collections of vectors below are linearly independent?         (3)   For what values of are the columns of linearly dependent?         (4)   A matrix has all non‑zero columns, and . Identify a non‑trivial solution to .    (5)   Short answer questions.   The columns of a matrix are linearly independent. How many pivots does the matrix have?  If the columns of a matrix span , how many pivots does the matrix have?      "
 },
 {
-  "id": "chapter-1-ws-8",
+  "id": "Section-1-8",
   "level": "1",
-  "url": "chapter-1-ws-8.html",
-  "type": "Handout",
+  "url": "Section-1-8.html",
+  "type": "Section",
   "number": "",
-  "title": "Worksheet 1.8, An Introduction to Linear Transforms",
-  "body": " Worksheet 1.8, An Introduction to Linear Transforms    (1)   Written Explanation Exercise   Suppose for all where is a matrix and is onto.    What can we say about pivotal rows of ?    What can we say about the existence of solutions to ?      (2)   Let be a matrix. What must and be if we define the linear transformation by ?    (3)   Let be a linear transformation such that     Construct a matrix so that for all vectors .      (4)   Let be a linear transformation such that     Identify a non‑trivial solution to .    (5)   Let be the linear transformation with matrix below. Match each choice of on the left with the geometric description of on the right.   Match the matrices on the left to their descriptions on the right!      rotation by     A shear     projection onto the -axis     dilation by       "
+  "title": "1.8 An Introduction to Linear Transformations",
+  "body": " 1.8 An Introduction to Linear Transformations   Worksheet 1.8, An Introduction to Linear Transforms    (1)   Written Explanation Exercise   Suppose for all where is a matrix and is onto.    What can we say about pivotal rows of ?    What can we say about the existence of solutions to ?      (2)   Let be a matrix. What must and be if we define the linear transformation by ?    (3)   Let be a linear transformation such that     Construct a matrix so that for all vectors .      (4)   Let be a linear transformation such that     Identify a non‑trivial solution to .    (5)   Let be the linear transformation with matrix below. Match each choice of on the left with the geometric description of on the right.   Match the matrices on the left to their descriptions on the right!      rotation by     A shear     projection onto the -axis     dilation by        "
 },
 {
-  "id": "chapter-1-ws-8-3-2-2",
+  "id": "Section-1-8-2-3-2-2",
   "level": "2",
-  "url": "chapter-1-ws-8.html#chapter-1-ws-8-3-2-2",
+  "url": "Section-1-8.html#Section-1-8-2-3-2-2",
   "type": "Table",
   "number": "1.1",
   "title": "Match the matrices on the left to their descriptions on the right!",
   "body": " Match the matrices on the left to their descriptions on the right!      rotation by     A shear     projection onto the -axis     dilation by    "
 },
 {
-  "id": "chapter-1-ws-9",
+  "id": "Section-1-9",
   "level": "1",
-  "url": "chapter-1-ws-9.html",
-  "type": "Handout",
+  "url": "Section-1-9.html",
+  "type": "Section",
   "number": "",
-  "title": "Worksheet 1.9, Linear Transforms",
-  "body": " Worksheet 1.9, Linear Transforms    (1)   Indicate whether the statements are true or false.   If is a matrix then the map cannot be one‑to‑one.  If is a matrix then the map cannot be onto.  is one‑to‑one if and only if has only the trivial solution.     (2)   Construct the standard matrix of the linear transformation .     , where and .     is a vertical shear given by and .    Construct a matrix such that , where first reflects vectors across the line , then rotates them counterclockwise by radians about the origin, then reflects them across the line .      "
+  "title": "1.9 More on Linear Transformations",
+  "body": " 1.9 More on Linear Transformations   Worksheet 1.9, Linear Transforms    (1)   Indicate whether the statements are true or false.   If is a matrix then the map cannot be one‑to‑one.  If is a matrix then the map cannot be onto.  is one‑to‑one if and only if has only the trivial solution.     (2)   Construct the standard matrix of the linear transformation .     , where and .     is a vertical shear given by and .    Construct a matrix such that , where first reflects vectors across the line , then rotates them counterclockwise by radians about the origin, then reflects them across the line .       "
 },
 {
   "id": "chapter-2-ws-2",
@@ -244,9 +244,9 @@ var ptx_lunr_docs = [
   "body": " Worksheet 6.5 and 6.6, Least‑Squares Problems, Applications to Linear Models     (1)   Fill in the blanks. These questions concern the least‑squares solution to .   If , then __________________.  If the columns of are linearly independent, then __________________ .  If is in the column space of , then __________________.  If and is invertible, then __________________ .      (2)   These questions concern the least‑squares solution to . Indicate whether the statements are true or false.   The solution is chosen so that is as close as possible to .  If , then .  If the columns of are linearly independent, then the least‑squares solution is unique.        (3)   Use the QR decomposition to calculate the least‑squares solution to .        (4)   Four points in with coordinates are given in the table below.     Determine the coefficients and for the plane that best fits the data. (Hint: normal equations.)    "
 },
 {
-  "id": "chapter-10-ws-2",
+  "id": "chapter-7-ws-2",
   "level": "1",
-  "url": "chapter-10-ws-2.html",
+  "url": "chapter-7-ws-2.html",
   "type": "Handout",
   "number": "",
   "title": "Worksheet 10.2, The Steady‑State Vector and Page Rank",
@@ -255,20 +255,11 @@ var ptx_lunr_docs = [
 {
   "id": "fig-tikz-pagerank",
   "level": "2",
-  "url": "chapter-10-ws-2.html#fig-tikz-pagerank",
+  "url": "chapter-7-ws-2.html#fig-tikz-pagerank",
   "type": "Figure",
   "number": "7.1",
   "title": "",
   "body": " A figure of a transition diagram representing the connections between 5 web pages.     "
-},
-{
-  "id": "chapter-7-ws-2",
-  "level": "1",
-  "url": "chapter-7-ws-2.html",
-  "type": "Handout",
-  "number": "",
-  "title": "Worksheet 7.1, Diagonalization of Symmetric Matrices",
-  "body": " Worksheet 7.1, Diagonalization of Symmetric Matrices     (1)   Construct a spectral decomposition for .        (2)   If possible, give an example of:    a matrix that is diagonalizable but not orthogonally diagonalizable.    a matrix that is orthogonally diagonalizable but not invertible.    any matrix that is diagonalizable but not invertible.         (3)   Indicate whether the statements are true or false.    If is orthogonally diagonalizable, then so is .    For any matrix , both and are symmetric matrices.       (4)   The only eigenvalues of are and .     Construct matrices and for the orthogonal diagonalization . Hints: you may want to use the Gram–Schmidt process to construct . Since is an orthogonal matrix, what do the lengths of each column of need to be?    "
 },
 {
   "id": "chapter-7-ws-3",
@@ -276,8 +267,8 @@ var ptx_lunr_docs = [
   "url": "chapter-7-ws-3.html",
   "type": "Handout",
   "number": "",
-  "title": "Worksheet 7.2, Quadratic Forms",
-  "body": " Worksheet 7.2, Quadratic Forms     (1)   Indicate whether the statements are true or false.     for all real values of and .    The quadratic form is negative semidefinite.       (2)   Assume . Construct the matrix of the quadratic form, and classify the quadratic form          (3)   Make a change of variables that transforms the quadratic form into another quadratic form that has no cross‑product term.        (4)   Written Explanation Exercise Let , where is a symmetric matrix with eigenvalues . Explain how to find a change of variables so that becomes       "
+  "title": "Worksheet 7.1, Diagonalization of Symmetric Matrices",
+  "body": " Worksheet 7.1, Diagonalization of Symmetric Matrices     (1)   Construct a spectral decomposition for .        (2)   If possible, give an example of:    a matrix that is diagonalizable but not orthogonally diagonalizable.    a matrix that is orthogonally diagonalizable but not invertible.    any matrix that is diagonalizable but not invertible.         (3)   Indicate whether the statements are true or false.    If is orthogonally diagonalizable, then so is .    For any matrix , both and are symmetric matrices.       (4)   The only eigenvalues of are and .     Construct matrices and for the orthogonal diagonalization . Hints: you may want to use the Gram–Schmidt process to construct . Since is an orthogonal matrix, what do the lengths of each column of need to be?    "
 },
 {
   "id": "chapter-7-ws-4",
@@ -285,13 +276,22 @@ var ptx_lunr_docs = [
   "url": "chapter-7-ws-4.html",
   "type": "Handout",
   "number": "",
-  "title": "Worksheet 7.3, Constrained Optimization",
-  "body": " Worksheet 7.3, Constrained Optimization     (1)   Indicate whether the statements are true or false.    The largest value of a positive definite quadratic form is the largest eigenvalue of .    The largest value of a positive definite quadratic form subject to is the largest value on the diagonal of .       (2)   Calculate the maximum and minimum values of the quadratic form subject to the constraint . Identify where this maximum is obtained.          (3)   Calculate the maximum and minimum values of the quadratic form subject to the constraints and .        (4)   If possible, give examples of the following, or write “not possible”.    A quadratic form that has maximum value , subject to the constraint .    A quadratic form that has a maximum value at two distinct locations, subject to the constraint .      "
+  "title": "Worksheet 7.2, Quadratic Forms",
+  "body": " Worksheet 7.2, Quadratic Forms     (1)   Indicate whether the statements are true or false.     for all real values of and .    The quadratic form is negative semidefinite.       (2)   Assume . Construct the matrix of the quadratic form, and classify the quadratic form          (3)   Make a change of variables that transforms the quadratic form into another quadratic form that has no cross‑product term.        (4)   Written Explanation Exercise Let , where is a symmetric matrix with eigenvalues . Explain how to find a change of variables so that becomes       "
 },
 {
   "id": "chapter-7-ws-5",
   "level": "1",
   "url": "chapter-7-ws-5.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Worksheet 7.3, Constrained Optimization",
+  "body": " Worksheet 7.3, Constrained Optimization     (1)   Indicate whether the statements are true or false.    The largest value of a positive definite quadratic form is the largest eigenvalue of .    The largest value of a positive definite quadratic form subject to is the largest value on the diagonal of .       (2)   Calculate the maximum and minimum values of the quadratic form subject to the constraint . Identify where this maximum is obtained.          (3)   Calculate the maximum and minimum values of the quadratic form subject to the constraints and .        (4)   If possible, give examples of the following, or write “not possible”.    A quadratic form that has maximum value , subject to the constraint .    A quadratic form that has a maximum value at two distinct locations, subject to the constraint .      "
+},
+{
+  "id": "chapter-7-ws-6",
+  "level": "1",
+  "url": "chapter-7-ws-6.html",
   "type": "Handout",
   "number": "",
   "title": "Worksheet 7.4, The Singular Value Decomposition",
