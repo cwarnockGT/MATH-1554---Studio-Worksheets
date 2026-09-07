@@ -52,7 +52,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "1.7 Linear Independence",
-  "body": " 1.7 Linear Independence   Worksheet 1.7, Linear Independence    (1)   Written Explanation Exercise   How are span and linear dependence related to each other?   Suppose is a linear map.   If are dependent, why are dependent?  If are independent, need be independent?       (2)   In the problems below, are three linearly independent vectors in . Which of the collections of vectors below are linearly independent?         (3)   For what values of are the columns of linearly dependent?         (4)   A matrix has all non‑zero columns, and . Identify a non‑trivial solution to .    (5)   Short answer questions.   The columns of a matrix are linearly independent. How many pivots does the matrix have?  If the columns of a matrix span , how many pivots does the matrix have?      "
+  "body": " 1.7 Linear Independence   Worksheet 1.7, Linear Independence    (1)   Written Explanation Exercise   How are span and linear dependence related to each other?     (2)   In the problems below, are three linearly independent vectors in . Which of the collections of vectors below are linearly independent?         (3)   For what values of are the columns of linearly dependent?         (4)   A matrix has all non‑zero columns, and . Identify a non‑trivial solution to .    (5)   Short answer questions.   The columns of a matrix are linearly independent. How many pivots does the matrix have?  If the columns of a matrix span , how many pivots does the matrix have?      "
 },
 {
   "id": "Section-1-8",
@@ -79,7 +79,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "1.9 More on Linear Transformations",
-  "body": " 1.9 More on Linear Transformations   Worksheet 1.9, Linear Transforms    (1)   Indicate whether the statements are true or false.   If is a matrix then the map cannot be one‑to‑one.  If is a matrix then the map cannot be onto.  is one‑to‑one if and only if has only the trivial solution.     (2)   Construct the standard matrix of the linear transformation .     , where and .     is a vertical shear given by and .    Construct a matrix such that , where first reflects vectors across the line , then rotates them counterclockwise by radians about the origin, then reflects them across the line .       "
+  "body": " 1.9 More on Linear Transformations   Worksheet 1.9, More on Linear Transformations    (1)   Indicate whether the statements are true or false.   If is a matrix then the map cannot be one‑to‑one.  If is a matrix then the map cannot be onto.  is one‑to‑one if and only if has only the trivial solution.     (2)   Suppose is a linear map.   If are dependent, why are dependent?  If are independent, need be independent?       (3)   Construct the standard matrix of the linear transformation .     , where and .     is a vertical shear given by and .    Construct a matrix such that , where first reflects vectors across the line , then rotates them counterclockwise by radians about the origin, then reflects them across the line .       "
 },
 {
   "id": "chapter-2-ws-2",
