@@ -8,15 +8,6 @@
       <p>(1) &#160; <em>Written Explanation Exercise</em></p>
       <ol marker="(a)">
         <li><p>How are span and linear dependence related to each other?</p></li>
-        <li>
-          <p>
-            Suppose <m>T</m> is a linear map.
-          </p>
-          <ol marker="(a)">
-                <li><p>If <m>v_1,\dots,v_k</m> are dependent, why are <m>T(v_1),\dots,T(v_k)</m> dependent?</p></li>
-                <li><p>If <m>v_1,\dots,v_k</m> are independent, need <m>T(v_1),\dots,T(v_k)</m> be independent?</p></li>
-          </ol>
-        </li>
       </ol>
     </li>
 

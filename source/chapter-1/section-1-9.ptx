@@ -14,7 +14,21 @@
     </li>
 
     <li workspace="2in">
-      <p>(2) &#160; Construct the standard matrix of the linear transformation <m>T</m>.</p>
+          <p>
+            (2) &#160; Suppose <m>T</m> is a linear map.
+          </p>
+          <ol marker="(a)">
+                <li><p>If <m>v_1,\dots,v_k</m> are dependent, why are <m>T(v_1),\dots,T(v_k)</m> dependent?</p></li>
+                <li><p>If <m>v_1,\dots,v_k</m> are independent, need <m>T(v_1),\dots,T(v_k)</m> be independent?</p></li>
+          </ol>
+        </li>
+
+      </ul>
+
+      <ul marker="">
+
+    <li workspace="2in">
+      <p>(3) &#160; Construct the standard matrix of the linear transformation <m>T</m>.</p>
 
       <ol marker="(a)">
         <li>
