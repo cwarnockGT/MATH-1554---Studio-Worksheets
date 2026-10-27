@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <chapter xml:id="chapter-final-ws" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Final Exam Review Worksheets</title>
+  <section>
+    <title>Final Exam Review</title>
+    
+    
   <xi:include href="./section-final-exam-review.ptx"/>
+  </section>
 </chapter>
