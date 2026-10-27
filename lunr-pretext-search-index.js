@@ -1252,18 +1252,18 @@ var ptx_lunr_docs = [
   "body": " By inspection, construct an SVD of the diagonal matrix     The SVD of a matrix is not unique. How many different SVDs can you create from the matrix above?  "
 },
 {
-  "id": "section-final-exam-review",
+  "id": "chapter-final-ws-2",
   "level": "1",
-  "url": "section-final-exam-review.html",
-  "type": "Worksheet",
+  "url": "chapter-final-ws-2.html",
+  "type": "Section",
   "number": "",
   "title": "Final Exam Review",
-  "body": " Final Exam Review     Indicate whether the statements are possible (P) or impossible (I). For the statements that are possible, give an example.   is a linear transformation , where , , and is one‑to‑one but not onto.  is a negative semidefinite quadratic form, and , where is an eigenvector of .  is a square matrix, is an eigenvalue of , and .  is an matrix, for some , and . The Gram–Schmidt algorithm applied to exactly vectors in produces an orthogonal basis with dimension . Matrix is , has singular values and , and .    Vectors are linearly independent and span a subspace .  Fill in the circles next to the sets of vectors that span .               Fill in the circles next to the sets of vectors that form a basis for .                  Give an example of an matrix whose null space is equal to its column space.       Fill in the blanks.  If and for all there is at most one such that , where , how many pivot columns does have? _________ Consider the row operations that reduce to . Identify the elementary matrices and .   By inspection, and    For what values of , if any, is diagonalizable? _________ An eigenvector of is . What is the eigenvalue associated with ? _________    If possible, give an example of the following, or write “not possible”.  A matrix in RREF such that . The vectors and are a basis for the range of .  A non‑zero matrix in RREF such that and .    "
+  "body": " Final Exam Review   Final Exam Review     Indicate whether the statements are possible (P) or impossible (I). For the statements that are possible, give an example.   is a linear transformation , where , , and is one‑to‑one but not onto.  is a negative semidefinite quadratic form, and , where is an eigenvector of .  is a square matrix, is an eigenvalue of , and .  is an matrix, for some , and . The Gram–Schmidt algorithm applied to exactly vectors in produces an orthogonal basis with dimension . Matrix is , has singular values and , and .    Vectors are linearly independent and span a subspace .  Fill in the circles next to the sets of vectors that span .               Fill in the circles next to the sets of vectors that form a basis for .                  Give an example of an matrix whose null space is equal to its column space.       Fill in the blanks.  If and for all there is at most one such that , where , how many pivot columns does have? _________ Consider the row operations that reduce to . Identify the elementary matrices and .   By inspection, and    For what values of , if any, is diagonalizable? _________ An eigenvector of is . What is the eigenvalue associated with ? _________    If possible, give an example of the following, or write “not possible”.  A matrix in RREF such that . The vectors and are a basis for the range of .  A non‑zero matrix in RREF such that and .     "
 },
 {
   "id": "section-final-exam-review-ex-1",
   "level": "2",
-  "url": "section-final-exam-review.html#section-final-exam-review-ex-1",
+  "url": "chapter-final-ws-2.html#section-final-exam-review-ex-1",
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
@@ -1272,7 +1272,7 @@ var ptx_lunr_docs = [
 {
   "id": "section-final-exam-review-ex-2",
   "level": "2",
-  "url": "section-final-exam-review.html#section-final-exam-review-ex-2",
+  "url": "chapter-final-ws-2.html#section-final-exam-review-ex-2",
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
@@ -1281,7 +1281,7 @@ var ptx_lunr_docs = [
 {
   "id": "section-final-exam-review-ex-3",
   "level": "2",
-  "url": "section-final-exam-review.html#section-final-exam-review-ex-3",
+  "url": "chapter-final-ws-2.html#section-final-exam-review-ex-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
@@ -1290,7 +1290,7 @@ var ptx_lunr_docs = [
 {
   "id": "section-final-exam-review-ex-4",
   "level": "2",
-  "url": "section-final-exam-review.html#section-final-exam-review-ex-4",
+  "url": "chapter-final-ws-2.html#section-final-exam-review-ex-4",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",
@@ -1299,7 +1299,7 @@ var ptx_lunr_docs = [
 {
   "id": "section-final-exam-review-ex-5",
   "level": "2",
-  "url": "section-final-exam-review.html#section-final-exam-review-ex-5",
+  "url": "chapter-final-ws-2.html#section-final-exam-review-ex-5",
   "type": "Worksheet Exercise",
   "number": "5",
   "title": "",
