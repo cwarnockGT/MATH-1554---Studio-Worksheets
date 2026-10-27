@@ -1,0 +1,13 @@
+/* Print worksheet styles use white block headings by default. */
+.exercise-like:not(.task) > .heading:first-child {
+  color: black;
+}
+
+.exercise-like:not(.task) > .heading > .codenumber::before {
+  content: "Problem ";
+}
+
+.exercise-like:not(.task) > .heading {
+  display: block;
+  font-size: 1.1em;
+}
