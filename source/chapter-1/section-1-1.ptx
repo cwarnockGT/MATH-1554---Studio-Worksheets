@@ -1,43 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<handout>
+<worksheet xml:id="section-1-1">
   <title>Worksheet 1.1, Systems of Linear Equations</title>
 
-  <ul marker="">
-    <li workspace="2in">
-      <p>(1) &#160; Indicate whether the statements are true or false.</p>
-      <ol marker="(a)">
-        <li><p>If a linear system has more equations than unknowns, then the system cannot have a unique solution.</p></li>
-        <li><p>If a linear system has more unknowns than equations, then the system cannot have a unique solution.</p></li>
-      </ol>
+  <page>
+    <exercise xml:id="section-1-1-ex-1" workspace="2in"><introduction>
+      <p> Indicate whether the statements are true or false.</p>
+      
       <p>Before moving on - what strategies does your TA(s) recommend that students can use to approach true/false questions?</p>
-    </li>
+    </introduction><task><statement><p>If a linear system has more equations than unknowns, then the system cannot have a unique solution.</p></statement></task><task><statement><p>If a linear system has more unknowns than equations, then the system cannot have a unique solution.</p></statement></task></exercise>
 
-    <li workspace="4in">
-      <p>(2) &#160; For what values of <m>A</m> and <m>B</m>, if any, does the system have each behavior below?</p>
-      <ol marker="(a)">
-        <li><p>an infinite number of solutions</p></li>
-        <li><p>no solutions</p></li>
-        <li><p>exactly one solution</p></li>
-      </ol>
+    <exercise xml:id="section-1-1-ex-2" workspace="4in"><introduction>
+      <p> For what values of <m>A</m> and <m>B</m>, if any, does the system have each behavior below?</p>
+      
 
       <p>
-        <me>
+        <md>
         \begin{aligned}
           x_1 + 2x_2 \amp= 1 \\
           A x_1 + B x_2 \amp= 2
         \end{aligned}
-        </me>
+        </md>
       </p>
 
       <p>
         For the case where there are an infinite number of solutions, sketch the set of solutions.
         The sketch must have labeled axes, and the solution set should be drawn as a line without arrows.
       </p>
-    </li>
+    </introduction><task><statement><p>an infinite number of solutions</p></statement></task><task><statement><p>no solutions</p></statement></task><task><statement><p>exactly one solution</p></statement></task></exercise>
 
-    <li workspace="1in">
-      <p>(3) &#160; From your TA’s perspective, what strategies do they recommend to ensure success in a college‑level linear algebra course? What strategies worked for them?</p>
+    <exercise xml:id="section-1-1-ex-3" workspace="1in"><statement>
+      <p> From your TA’s perspective, what strategies do they recommend to ensure success in a college‑level linear algebra course? What strategies worked for them?</p>
       <p>This worksheet is intentionally shorter to allow time for course and studio organization.</p>
-    </li>
-  </ul>
-</handout>
+    </statement></exercise>
+  </page>
+</worksheet>

@@ -1,34 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<handout>
+<worksheet xml:id="section-1-3">
   <title>Worksheet 1.3, Vector Equations</title>
 
-  <ul marker="">
+  <page>
 
-    <li workspace="1in">
-      <p>(1) &#160; <em>Written Explanation Exercise</em></p>
-      <ol marker="(a)">
-        <li><p>What does the span of a set of vectors represent?</p></li>
-        <li><p>How can we determine whether a vector is in the span of a set of vectors?</p></li>
-      </ol>
-    </li>
+    <exercise xml:id="section-1-3-ex-1" workspace="1in"><introduction>
+      <p> <em>Written Explanation Exercise</em></p>
+      
+    </introduction><task><statement><p>What does the span of a set of vectors represent?</p></statement></task><task><statement><p>How can we determine whether a vector is in the span of a set of vectors?</p></statement></task></exercise>
 
-    <li workspace="2in">
-      <p>(2) &#160; Suppose <m>A = \begin{pmatrix}2 &amp; -1 &amp; 3 \\ 4 &amp; -2 &amp; 6\end{pmatrix}</m>.</p>
-      <ol marker="(a)">
-        <li>
+    <exercise xml:id="section-1-3-ex-2" workspace="2in"><introduction>
+      <p> Suppose <m>A = \begin{pmatrix}2 &amp; -1 &amp; 3 \\ 4 &amp; -2 &amp; 6\end{pmatrix}</m>.</p>
+      
+    </introduction><task><statement>
           <p>
             Sketch the span of the columns of the matrix. Label your axes.
             Use arrows for coordinate axes and vectors (because they are quantities with direction), but do not sketch the span of a set of vectors with arrows.
           </p>
-        </li>
-        <li>
+        </statement></task><task><statement>
           <p>
             On the same graph, sketch the vectors
             <m>\mathbf{u} = \begin{pmatrix}1 \\ 2\end{pmatrix}</m> and
             <m>\mathbf{v} = \begin{pmatrix}3 \\ 1\end{pmatrix}</m>.
           </p>
-        </li>
-        <li>
+        </statement></task><task><statement>
           <p>
             Using your graph, determine which of the following systems is consistent:
             <ul>
@@ -36,9 +31,7 @@
                 <li><m>Ax = v</m></li>
             </ul>
           </p>
-        </li>
-      </ol>
-    </li>
+        </statement></task></exercise>
 
-  </ul>
-</handout>
+  </page>
+</worksheet>

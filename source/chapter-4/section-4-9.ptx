@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<handout>
+<worksheet xml:id="section-4-9">
   <title>Worksheet 4.9, Applications to Markov Chains</title>
 
   <!-- Stopping point as of Feb 20.-->
 
-  <ul marker="">
+  <page>
 
-    <!-- Problem 1 -->
-    <li workspace="2in">
-      <p>(1) &#160; Determine whether <m>P</m> and <m>Q</m> are regular stochastic matrices.</p>
+    <!-- Exercise 1 -->
+    <exercise xml:id="section-4-9-ex-1" workspace="2in"><statement>
+      <p> Determine whether <m>P</m> and <m>Q</m> are regular stochastic matrices.</p>
 
       <p>
-        <me>
+        <md>
         P =
         \begin{pmatrix}
           0.8 &amp; 0 \\
@@ -24,13 +24,13 @@
           0 &amp; 1 &amp; 2 \\
           3 &amp; 1 &amp; 2
         \end{pmatrix}
-        </me>
+        </md>
       </p>
-    </li>
+    </statement></exercise>
 
-    <!-- Problem 2 -->
-    <li workspace="2in">
-      <p>(2) &#160; Consider the Markov chain below.</p>
+    <!-- Exercise 2 -->
+    <exercise xml:id="section-4-9-ex-2" workspace="2in"><statement>
+      <p> Consider the Markov chain below.</p>
 
       <figure xml:id="fig-tikz-markov">
         <caption>A figure of a Markov chain. </caption>
@@ -57,14 +57,14 @@
     </figure>
 
       <p>What is the transition matrix? Calculate the steady‑state vector.</p>
-    </li>
+    </statement></exercise>
     
-    </ul>
-    <ul marker = "">
+    </page>
+    <page>
 
-    <!-- Problem 3 -->
-    <li workspace="2in">
-      <p>(3) &#160; Suppose there are two cities, X and Y. Every year:</p>
+    <!-- Exercise 3 -->
+    <exercise xml:id="section-4-9-ex-3" workspace="2in"><introduction>
+      <p> Suppose there are two cities, X and Y. Every year:</p>
 
       <ul>
         <li><p>70% of the people from X stay in X, the remaining 30% move to Y.</p></li>
@@ -72,34 +72,25 @@
       </ul>
 
       <p>The initial populations of X and Y are 100 and 200, respectively.</p>
+      
+    </introduction><task><statement><p>What is the stochastic matrix that represents this situation?</p></statement></task><task><statement><p>After a long period of time, what is the population in city X?</p></statement></task></exercise>
 
-      <ol marker="(a)">
-        <li><p>What is the stochastic matrix that represents this situation?</p></li>
-        <li><p>After a long period of time, what is the population in city X?</p></li>
-      </ol>
-    </li>
-
-    <!-- Problem 4 -->
-    <li workspace="1in">
-      <p>(4) &#160; <em>Written Explanation Exercise</em>  
+    <!-- Exercise 4 -->
+    <exercise xml:id="section-4-9-ex-4" workspace="1in"><statement>
+      <p> <em>Written Explanation Exercise</em>  
       Let <m>P</m> be a stochastic <m>n \times n</m> matrix with positive entries.  
       Give two methods of finding the steady‑state solution.</p>
-    </li>
+    </statement></exercise>
 
-    <!-- Problem 5 -->
-    <li workspace="2in">
-      <p>(5) &#160; A mouse lives in a maze that has at least three rooms.  
+    <!-- Exercise 5 -->
+    <exercise xml:id="section-4-9-ex-5" workspace="2in"><introduction>
+      <p> A mouse lives in a maze that has at least three rooms.  
       Each room is connected to at least one other room (in other words, every room is connected).  
       Every hour the mouse moves to a connected room with equal probability.</p>
-
-      <ol marker="(a)">
-        <li><p>Design any mouse maze and its corresponding transition matrix <m>P</m>.</p></li>
-        <li><p>Is your <m>P</m> regular stochastic?</p></li>
-        <li><p>In the long run, is there a room the mouse is more likely to be in? If so, which one?</p></li>
-      </ol>
-    </li>
+      
+    </introduction><task><statement><p>Design any mouse maze and its corresponding transition matrix <m>P</m>.</p></statement></task><task><statement><p>Is your <m>P</m> regular stochastic?</p></statement></task><task><statement><p>In the long run, is there a room the mouse is more likely to be in? If so, which one?</p></statement></task></exercise>
     
     <p><i>Note: this problem is related to the PageRank problem that we explore later in this class.</i></p>
 
-  </ul>
-</handout>
+  </page>
+</worksheet>

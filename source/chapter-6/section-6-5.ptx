@@ -1,41 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<handout>
+<worksheet xml:id="section-6-5">
   <title>Worksheet 6.5 and 6.6, Least‑Squares Problems, Applications to Linear Models</title>
 
-  <ul marker="">
+  <page>
 
-    <!-- Problem 1 -->
-    <li workspace="2in">
-      <p>(1) &#160; Fill in the blanks. These questions concern the least‑squares solution <m>\hat{x}</m> to <m>A\vec{x} = \vec{b}</m>.</p>
+    <!-- Exercise 1 -->
+    <exercise xml:id="section-6-5-ex-1" workspace="2in"><introduction>
+      <p> Fill in the blanks. These questions concern the least‑squares solution <m>\hat{x}</m> to <m>A\vec{x} = \vec{b}</m>.</p>
+      
+    </introduction><task><statement><p>If <m>A = QR</m>, then <m>A^T A =</m> __________________.</p></statement></task><task><statement><p>If the columns of <m>A</m> are linearly independent, then <m>\hat{x} =</m> __________________<m>A^T \vec{b}</m>.</p></statement></task><task><statement><p>If <m>\vec{b}</m> is in the column space of <m>A</m>, then <m>A\hat{x} =</m> __________________.</p></statement></task><task><statement><p>If <m>A = QR</m> and <m>R</m> is invertible, then <m>\hat{x} =</m> __________________<m>Q^T \vec{b}</m>.</p></statement></task></exercise>
 
-      <ol marker="(a)">
-        <li><p>If <m>A = QR</m>, then <m>A^T A =</m> __________________.</p></li>
-        <li><p>If the columns of <m>A</m> are linearly independent, then <m>\hat{x} =</m> __________________<m>A^T \vec{b}</m>.</p></li>
-        <li><p>If <m>\vec{b}</m> is in the column space of <m>A</m>, then <m>A\hat{x} =</m> __________________.</p></li>
-        <li><p>If <m>A = QR</m> and <m>R</m> is invertible, then <m>\hat{x} =</m> __________________<m>Q^T \vec{b}</m>.</p></li>
-      </ol>
-    </li>
-
-    <!-- Problem 2 -->
-    <li workspace="2in">
-      <p>(2) &#160; These questions concern the least‑squares solution <m>\hat{x}</m> to <m>A\vec{x} = \vec{b}</m>.
+    <!-- Exercise 2 -->
+    <exercise xml:id="section-6-5-ex-2" workspace="2in"><introduction>
+      <p> These questions concern the least‑squares solution <m>\hat{x}</m> to <m>A\vec{x} = \vec{b}</m>.
       Indicate whether the statements are true or false.</p>
+      
+    </introduction><task><statement><p>The solution <m>\hat{x}</m> is chosen so that <m>A\hat{x}</m> is as close as possible to <m>\vec{b}</m>.</p></statement></task><task><statement><p>If <m>\vec{y} \ne \hat{x}</m>, then <m>\|A\hat{x} - \vec{b}\| &lt; \|A\vec{y} - \vec{b}\|</m>.</p></statement></task><task><statement><p>If the columns of <m>A</m> are linearly independent, then the least‑squares solution is unique.</p></statement></task></exercise>
+  </page>
+  <page>
 
-      <ol marker="(a)">
-        <li><p>The solution <m>\hat{x}</m> is chosen so that <m>A\hat{x}</m> is as close as possible to <m>\vec{b}</m>.</p></li>
-        <li><p>If <m>\vec{y} \ne \hat{x}</m>, then <m>\|A\hat{x} - \vec{b}\| &lt; \|A\vec{y} - \vec{b}\|</m>.</p></li>
-        <li><p>If the columns of <m>A</m> are linearly independent, then the least‑squares solution is unique.</p></li>
-      </ol>
-    </li>
-  </ul>
-  <ul marker="">
-
-    <!-- Problem 3 -->
-    <li workspace="1.5in">
-      <p>(3) &#160; Use the QR decomposition to calculate the least‑squares solution to <m>A\vec{x} = \vec{b}</m>.</p>
+    <!-- Exercise 3 -->
+    <exercise xml:id="section-6-5-ex-3" workspace="1.5in"><statement>
+      <p> Use the QR decomposition to calculate the least‑squares solution to <m>A\vec{x} = \vec{b}</m>.</p>
 
       <p>
-        <me>
+        <md>
         A = QR =
         \begin{pmatrix}
           \tfrac{2}{3} &amp; -\tfrac{1}{3} \\
@@ -51,23 +40,23 @@
         \begin{pmatrix}
           7 \\ 3 \\ 1
         \end{pmatrix}.
-        </me>
+        </md>
       </p>
-    </li>
+    </statement></exercise>
 
 
-<!-- Problem 4 -->
-    <li workspace="2in">
-      <p>(4) &#160; Four points in <m>\mathbb{R}^3</m> with coordinates <m>(x,y,z)</m> are given in the table below.</p>
+<!-- Exercise 4 -->
+    <exercise xml:id="section-6-5-ex-4" workspace="2in"><statement>
+      <p> Four points in <m>\mathbb{R}^3</m> with coordinates <m>(x,y,z)</m> are given in the table below.</p>
 
       <p>
-        <me>
+        <md>
         \begin{array}{c|cccc}
           x &amp; -1 &amp; 0 &amp; 2 &amp; 1 \\ \hline
           y &amp;  2 &amp; 1 &amp; 0 &amp; 2 \\ \hline
           z &amp;  9 &amp; 1 &amp; 0 &amp; -1
         \end{array}
-        </me>
+        </md>
       </p>
 
       <p>
@@ -75,8 +64,8 @@
         <m>z = c_1 x + c_2 y</m> that best fits the data.
         (Hint: normal equations.)
       </p>
-    </li>
+    </statement></exercise>
 
 
-  </ul>
-</handout>
+  </page>
+</worksheet>

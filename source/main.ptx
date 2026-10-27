@@ -11,7 +11,9 @@
 
   <book xml:id="worksheets">
     <title>Studio Worksheets for MATH 1554</title>
-      <introduction>
+      <frontmatter>
+        <preface xml:id="course-introduction">
+          <title>About These Worksheets</title>
         <p>
           The Studio Worksheets are meant to be used by all sections of MATH 1554. The exact pacing through the questions in the worksheets may vary from class to class.
         </p>
@@ -37,7 +39,8 @@
           and software are also great ways to check your work. All of these methods develop
         skills that are transferable to higher level courses, and beyond.</p>
       
-      </introduction>
+        </preface>
+      </frontmatter>
       <!-- Include worksheets -->
       
       <xi:include href="./chapter-1/chapter-1-main.ptx"/>

@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<handout>
+<worksheet xml:id="section-3-1">
   <title>Worksheet 3.1 to 3.3, Determinants</title>
 
-  <ul marker="">
+  <page>
 
-    <li workspace="2in">
-      <p>(1) &#160; <em>Written Explanation Exercise</em> Discuss the computational efficiency of computing <m>\det(A)</m> by cofactor expansion and by row operations. Which method is computationally better if <m>A</m> is <m>n \times n</m> and <m>n</m> is large? (Compare how many arithmetic operations it takes.)</p>
-    </li>
+    <exercise xml:id="section-3-1-ex-1" workspace="2in"><statement>
+      <p> <em>Written Explanation Exercise</em> Discuss the computational efficiency of computing <m>\det(A)</m> by cofactor expansion and by row operations. Which method is computationally better if <m>A</m> is <m>n \times n</m> and <m>n</m> is large? (Compare how many arithmetic operations it takes.)</p>
+    </statement></exercise>
 
-    <li workspace="2in">
-      <p>(2) &#160; Use a determinant to identify all values of <m>t</m> and <m>k</m> such that the matrices are singular. Assume that <m>t</m> and <m>k</m> must be real numbers.</p>
-
-      <ol marker="(a)">
-        <li>
+    <exercise xml:id="section-3-1-ex-2" workspace="2in"><introduction>
+      <p> Use a determinant to identify all values of <m>t</m> and <m>k</m> such that the matrices are singular. Assume that <m>t</m> and <m>k</m> must be real numbers.</p>
+      
+    </introduction><task><statement>
           <p>
             <m>
             A = 
@@ -23,9 +22,7 @@
             - t I_2
             </m>
           </p>
-        </li>
-
-        <li>
+        </statement></task><task><statement>
           <p>
             <m>
             B =
@@ -36,24 +33,22 @@
             \end{pmatrix}
             </m>
           </p>
-        </li>
-      </ol>
-    </li>
+        </statement></task></exercise>
 
-    <li workspace="2in">
-      <p>(3) &#160; Let <m>\begin{bmatrix} \vec{a} &amp; \vec{b} &amp; \vec{c} &amp; \vec{d} \end{bmatrix}</m> be a <m>4 \times 4</m> matrix whose determinant is equal to <m>2</m>. Compute the value of the determinant
+    <exercise xml:id="section-3-1-ex-3" workspace="2in"><statement>
+      <p> Let <m>\begin{bmatrix} \vec{a} &amp; \vec{b} &amp; \vec{c} &amp; \vec{d} \end{bmatrix}</m> be a <m>4 \times 4</m> matrix whose determinant is equal to <m>2</m>. Compute the value of the determinant
         <m>
         \begin{vmatrix}
           \vec{d} &amp; \vec{b} &amp; 3\vec{c} &amp; \vec{a}
         \end{vmatrix}.
         </m>
       </p>
-    </li>
-  </ul>
-  <ul marker="">
+    </statement></exercise>
+  </page>
+  <page>
 
-    <li workspace="1in">
-      <p>(4) &#160; <m>R</m> is the parallelogram determined by <m>\vec{p}_1 = \begin{pmatrix}3 \\ 4\end{pmatrix}</m> and <m>\vec{p}_2 = \begin{pmatrix}2 \\ 2\end{pmatrix}</m>. If
+    <exercise xml:id="section-3-1-ex-4" workspace="1in"><statement>
+      <p> <m>R</m> is the parallelogram determined by <m>\vec{p}_1 = \begin{pmatrix}3 \\ 4\end{pmatrix}</m> and <m>\vec{p}_2 = \begin{pmatrix}2 \\ 2\end{pmatrix}</m>. If
 
         <m>
         A =
@@ -64,12 +59,12 @@
         </m>
 
       , what is the area of the image of <m>R</m> under the map <m>\vec{x} \mapsto A\vec{x}</m>?</p>
-    </li>
+    </statement></exercise>
 
-    <li workspace="2in">
-      <p>(5) &#160; <m>T_A(\vec{x}) = A\vec{x}</m>, where <m>A \in \mathbb{R}^{2 \times 2}</m>, is a linear transformation that first rotates vectors in <m>\mathbb{R}^2</m> counterclockwise by <m>\theta</m> radians about the origin, then reflects them through the line <m>x_1 = x_2</m>. By inspection, what is the value of <m>\det(A)</m>? You should compute its value to check your answer.</p>
-    </li>
+    <exercise xml:id="section-3-1-ex-5" workspace="2in"><statement>
+      <p> <m>T_A(\vec{x}) = A\vec{x}</m>, where <m>A \in \mathbb{R}^{2 \times 2}</m>, is a linear transformation that first rotates vectors in <m>\mathbb{R}^2</m> counterclockwise by <m>\theta</m> radians about the origin, then reflects them through the line <m>x_1 = x_2</m>. By inspection, what is the value of <m>\det(A)</m>? You should compute its value to check your answer.</p>
+    </statement></exercise>
 
-  </ul>
+  </page>
 
-</handout>
+</worksheet>

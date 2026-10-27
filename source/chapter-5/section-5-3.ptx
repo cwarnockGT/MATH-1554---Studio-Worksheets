@@ -1,29 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<handout>
+<worksheet xml:id="section-5-3">
   <title>Worksheet 5.3, Diagonalization</title>
 
-  <ul marker="">
+  <page>
 
-    <!-- Problem 1 -->
-    <li workspace="2in">
-      <p>(1) &#160; Recall from lecture: a matrix <m>A</m> is diagonalizable if it can be written as <m>A = PDP^{-1}</m>.</p>
+    <!-- Exercise 1 -->
+    <exercise xml:id="section-5-3-ex-1" workspace="2in"><introduction>
+      <p> Recall from lecture: a matrix <m>A</m> is diagonalizable if it can be written as <m>A = PDP^{-1}</m>.</p>
+      
+    </introduction><task><statement><p><m>P</m> is a matrix whose columns are __________________.</p></statement></task><task><statement><p><m>D</m> is a __________________ matrix.</p></statement></task><task><statement><p>The elements on the main diagonal of <m>D</m> are __________________.</p></statement></task><task><statement><p>A diagonal matrix is a matrix that __________________.</p></statement></task><task><statement><p>The geometric multiplicity of an eigenvalue is _____________________________________.</p></statement></task><task><statement><p>A matrix can be diagonalized when the geometric multiplicities of all eigenvalues _______________________________________________.</p></statement></task></exercise>
 
-      <ol marker="(a)">
-        <li><p><m>P</m> is a matrix whose columns are __________________.</p></li>
-        <li><p><m>D</m> is a __________________ matrix.</p></li>
-        <li><p>The elements on the main diagonal of <m>D</m> are __________________.</p></li>
-        <li><p>A diagonal matrix is a matrix that __________________.</p></li>
-        <li><p>The geometric multiplicity of an eigenvalue is _____________________________________.</p></li>
-        <li><p>A matrix can be diagonalized when the geometric multiplicities of all eigenvalues _______________________________________________.</p></li>
-      </ol>
-    </li>
-
-    <!-- Problem 2 -->
-    <li workspace="2in">
-      <p>(2) &#160; If possible, construct <m>P</m> and <m>D</m> so that <m>A = PDP^{-1}</m>. Eigenvalues of <m>A</m> are given.</p>
-
-      <ol marker="(a)">
-        <li>
+    <!-- Exercise 2 -->
+    <exercise xml:id="section-5-3-ex-2" workspace="2in"><introduction>
+      <p> If possible, construct <m>P</m> and <m>D</m> so that <m>A = PDP^{-1}</m>. Eigenvalues of <m>A</m> are given.</p>
+      
+    </introduction><task><statement>
           <p>
             <m>
             A =
@@ -36,9 +27,7 @@
             \lambda = 2, 2, 5
             </m>
           </p>
-        </li>
-
-        <li>
+        </statement></task><task><statement>
           <p>
             <m>
             A =
@@ -50,9 +39,7 @@
             \lambda = -2, 5
             </m>
           </p>
-        </li>
-
-        <li>
+        </statement></task><task><statement>
           <p>
             <m>
             A =
@@ -64,40 +51,28 @@
             \lambda = 3, 3
             </m>
           </p>
-        </li>
-      </ol>
-    </li>
+        </statement></task></exercise>
 
-</ul>
-<ul marker="">
+</page>
+<page>
 
-    <!-- Problem 3 -->
-    <li workspace="2in">
-      <p>(3) &#160; If possible, give an example of:</p>
+    <!-- Exercise 3 -->
+    <exercise xml:id="section-5-3-ex-3" workspace="2in"><introduction>
+      <p> If possible, give an example of:</p>
+      
+    </introduction><task><statement><p>a singular <m>2 \times 2</m> matrix in echelon form that can be diagonalized.</p></statement></task><task><statement><p>a singular <m>2 \times 2</m> matrix in echelon form that cannot be diagonalized.</p></statement></task><task><statement><p>an invertible <m>2 \times 2</m> matrix in echelon form that can be diagonalized.</p></statement></task><task><statement><p>an invertible <m>2 \times 2</m> matrix in echelon form that cannot be diagonalized.</p></statement></task></exercise>
 
-      <ol marker="(a)">
-        <li><p>a singular <m>2 \times 2</m> matrix in echelon form that can be diagonalized.</p></li>
-        <li><p>a singular <m>2 \times 2</m> matrix in echelon form that cannot be diagonalized.</p></li>
-        <li><p>an invertible <m>2 \times 2</m> matrix in echelon form that can be diagonalized.</p></li>
-        <li><p>an invertible <m>2 \times 2</m> matrix in echelon form that cannot be diagonalized.</p></li>
-      </ol>
-    </li>
+    <!-- Exercise 4 -->
+    <exercise xml:id="section-5-3-ex-4" workspace="1in"><introduction>
+      <p> Indicate whether the statements are true or false.</p>
+      
+    </introduction><task><statement><p>If <m>A</m> is diagonalizable, then so is <m>A^2</m>.</p></statement></task><task><statement><p>If <m>A^2</m> is diagonalizable, then so is <m>A</m>.</p></statement></task></exercise>
 
-    <!-- Problem 4 -->
-    <li workspace="1in">
-      <p>(4) &#160; Indicate whether the statements are true or false.</p>
-
-      <ol marker="(a)">
-        <li><p>If <m>A</m> is diagonalizable, then so is <m>A^2</m>.</p></li>
-        <li><p>If <m>A^2</m> is diagonalizable, then so is <m>A</m>.</p></li>
-      </ol>
-    </li>
-
-    <!-- Problem 5 -->
-    <li workspace="2in">
-      <p>(5) &#160; Give an example of an upper triangular <m>4 \times 4</m> matrix <m>A</m> such that <m>0</m> is its only eigenvalue and its eigenspace is <m>3</m>-dimensional.
+    <!-- Exercise 5 -->
+    <exercise xml:id="section-5-3-ex-5" workspace="2in"><statement>
+      <p> Give an example of an upper triangular <m>4 \times 4</m> matrix <m>A</m> such that <m>0</m> is its only eigenvalue and its eigenspace is <m>3</m>-dimensional.
       Explain why the eigenspace has dimension <m>3</m>.</p>
-    </li>
+    </statement></exercise>
 
-  </ul>
-</handout>
+  </page>
+</worksheet>

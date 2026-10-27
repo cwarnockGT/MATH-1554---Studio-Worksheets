@@ -1,35 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<handout>
+<worksheet xml:id="section-6-2">
   <title>Worksheet 6.2, Orthogonal Sets</title>
 
-  <ul marker="">
+  <page>
 
-    <!-- Problem 1 -->
-    <li workspace="2in">
-      <p>(1) &#160; Indicate whether the statements are true or false.</p>
-
-      <ol marker="(a)">
-        <li>
+    <!-- Exercise 1 -->
+    <exercise xml:id="section-6-2-ex-1" workspace="2in"><introduction>
+      <p> Indicate whether the statements are true or false.</p>
+      
+    </introduction><task><statement>
           <p>
             If the columns of an <m>n \times n</m> matrix <m>A</m> are orthonormal,
             then the linear mapping <m>\vec{x} \mapsto A\vec{x}</m> preserves lengths.
           </p>
-        </li>
-        <li>
+        </statement></task><task><statement>
           <p>
             If <m>P</m> is a stochastic matrix, then the columns of <m>P</m> have unit length.
           </p>
-        </li>
-      </ol>
-    </li>
+        </statement></task></exercise>
 
-    <!-- Problem 2 -->
-    <li workspace="2in">
-      <p>(2) &#160; Write <m>\vec{y}</m> as the sum of a vector parallel to <m>\vec{u}</m>
+    <!-- Exercise 2 -->
+    <exercise xml:id="section-6-2-ex-2" workspace="2in"><statement>
+      <p> Write <m>\vec{y}</m> as the sum of a vector parallel to <m>\vec{u}</m>
       and a vector perpendicular to <m>\vec{u}</m>.</p>
 
       <p>
-        <me>
+        <md>
         \vec{y} =
         \begin{pmatrix}
           -1 \\ -5 \\ 10
@@ -39,20 +35,24 @@
         \begin{pmatrix}
           5 \\ -2 \\ 1
         \end{pmatrix}
-        </me>
+        </md>
       </p>
-    </li>
+    </statement></exercise>
 
-    <!-- Problem 3 -->
-    <li workspace="2in">
-      <p>(3) &#160; Find the coordinates for <m>\vec{v}</m> in the subspace spanned
-      by the orthogonal vectors <m>\vec{u}_1</m> and <m>\vec{u}_2</m>.</p>
+    <!-- Exercise 3 -->
+    <exercise xml:id="section-6-2-ex-3" workspace="3in"><statement>
+      <p> Determine if <m>\vec{v}</m> and <m>\vec w</m> are in the subspace spanned by the orthogonal vectors <m>\vec{u}_1</m> and <m>\vec{u}_2</m>. If they are, identify their coordinates in that subspace.</p>
 
       <p>
-        <me>
+        <md>
         \vec{v} =
         \begin{pmatrix}
-          0 \\ -5 \\ -3
+          44 \\ 7 \\ 3
+        \end{pmatrix},
+        \quad
+        \vec{w} =
+        \begin{pmatrix}
+          0 \\ -5 \\ 22
         \end{pmatrix},
         \quad
         \vec{u}_1 =
@@ -64,18 +64,17 @@
         \begin{pmatrix}
           6 \\ -7 \\ -10
         \end{pmatrix}
-        </me>
+        </md>
       </p>
-    </li>
-  </ul>
-  <ul marker = "">
+    </statement></exercise>
+  </page>
+  <page>
 
-    <!-- Problem 4 -->
-    <li workspace="2in">
-      <p>(4) &#160; Give examples of the following.</p>
-
-      <ol marker="(a)">
-        <li>
+    <!-- Exercise 4 -->
+    <exercise xml:id="section-6-2-ex-4" workspace="2in"><introduction>
+      <p> Give examples of the following.</p>
+      
+    </introduction><task><statement>
           <p>
             A matrix <m>A</m> in RREF such that
             <m>\dim\!\left((\mathrm{Row}(A))^\perp\right) = 1</m>
@@ -84,25 +83,21 @@
           </p>
 
           <p>
-            <me>A = \begin{pmatrix} &amp; &amp; &amp; \\ &amp; &amp; &amp; \\ &amp; &amp; &amp; \end{pmatrix}</me>
+            <md>A = \begin{pmatrix} &amp; &amp; &amp; \\ &amp; &amp; &amp; \\ &amp; &amp; &amp; \end{pmatrix}</md>
             <!-- manually padded entries -->
           </p>
-        </li>
-
-        <li>
+        </statement></task><task><statement>
           <p>
             Two linearly independent vectors <m>\vec{u}</m> and <m>\vec{v}</m> in <m>\mathbb{R}^3</m>
-            such that
+            with
             <m>\vec{u} \cdot \vec{x} = \vec{v} \cdot \vec{x} = 0</m>,
             where
             <m>\vec{x} =
-            \begin{pmatrix} 1 \\ 1 \\ 1 \end{pmatrix}</m>. <m>\qquad \vec{u} = \begin{pmatrix} &amp; \\  &amp; \\ &amp;
+            \begin{pmatrix} 1 \\ 1 \\ 1 \end{pmatrix}</m>. <md> \vec{u} = \begin{pmatrix} &amp; \\  &amp; \\ &amp;
            \end{pmatrix} \qquad \vec{v} = \begin{pmatrix} &amp; \\ &amp; \\ &amp;
-           \end{pmatrix}</m>
+           \end{pmatrix}</md>
           </p>
-        </li>
-
-        <li>
+        </statement></task><task><statement>
           <p>
             A <m>3 \times 3</m> matrix <m>A</m> in RREF such that
             <m>(\mathrm{Null}(A))^\perp</m> is spanned by
@@ -114,12 +109,10 @@
           </p>
 
           <p>
-            <me>A = \begin{pmatrix} &amp; &amp; &amp; &amp; \\ &amp; &amp; &amp; &amp; \\ &amp; &amp; &amp; &amp; \end{pmatrix}</me>
+            <md>A = \begin{pmatrix} &amp; &amp; &amp; &amp; \\ &amp; &amp; &amp; &amp; \\ &amp; &amp; &amp; &amp; \end{pmatrix}</md>
             <!-- Manually added in more ampersands because they didn't pad the matrix length enough-->
           </p>
-        </li>
-
-        <li>
+        </statement></task><task><statement>
           <p>
             A non‑zero vector <m>\vec{w}</m> whose projection onto <m>\mathrm{Col}(A)</m>
             is <m>\vec{w}</m>, where
@@ -133,11 +126,9 @@
           </p>
 
           <p>
-            <me>\vec{w} = \begin{pmatrix} &amp; \\ &amp; \\ &amp; \end{pmatrix}</me>
+            <md>\vec{w} = \begin{pmatrix} &amp; \\ &amp; \\ &amp; \end{pmatrix}</md>
           </p>
-        </li>
-      </ol>
-    </li>
+        </statement></task></exercise>
 
-  </ul>
-</handout>
+  </page>
+</worksheet>

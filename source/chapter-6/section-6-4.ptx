@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<handout>
+<worksheet xml:id="section-6-4">
   <title>Worksheet 6.4, The Gram–Schmidt Process</title>
 
-  <ul marker="">
+  <page>
 
-    <!-- Problem 1 -->
-    <li workspace="2in">
-      <p>(1) &#160; Compute the QR decomposition of 
+    <!-- Exercise 1 -->
+    <exercise xml:id="section-6-4-ex-1" workspace="2in"><statement>
+      <p> Compute the QR decomposition of 
         <m>
         A =
         \begin{pmatrix}
@@ -16,14 +16,18 @@
         \end{pmatrix}.
         </m>
       </p>
-    </li>
+    </statement></exercise>
 
-    <!-- Problem 2 -->
-    <li workspace="2in">
-      <p>(2) &#160; Consider the three vectors below.</p>
+    </page>
+
+    <page>
+
+    <!-- Exercise 2 -->
+    <exercise xml:id="section-6-4-ex-2" workspace="2in"><introduction>
+      <p> Consider the three vectors below.</p>
 
       <p>
-        <me>
+        <md>
         \vec{x}_1 =
         \begin{pmatrix}
           1 \\ 1 \\ 1 \\ 1 \\ 1
@@ -38,25 +42,20 @@
         \begin{pmatrix}
           4 \\ 1 \\ 1 \\ 1 \\ 4
         \end{pmatrix}
-        </me>
+        </md>
       </p>
-
-      <ol marker="(a)">
-        <li>
+      
+    </introduction><task><statement>
           <p>
             The pair of vectors <m>\vec{x}_1</m> and <m>\vec{x}_2</m> are orthogonal.
             Which other pairs of vectors are orthogonal?
           </p>
-        </li>
-
-        <li>
+        </statement></task><task><statement>
           <p>
             Use the vectors above, in that order, to construct three orthogonal
             vectors using the Gram–Schmidt process.
           </p>
-        </li>
-      </ol>
-    </li>
+        </statement></task></exercise>
 
-  </ul>
-</handout>
+  </page>
+</worksheet>

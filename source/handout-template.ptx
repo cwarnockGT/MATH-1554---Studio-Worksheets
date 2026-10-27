@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<handout>
-<title>Handout Title</title>
+<worksheet xml:id="handout-template">
+<title>Worksheet Title</title>
 
   <page>
     <p workspace="1in">
@@ -9,4 +9,4 @@
     </p>
 
   </page>
-</handout>
+</worksheet>

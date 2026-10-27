@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<handout>
+<worksheet xml:id="section-2-4">
   <title>Worksheet 2.4, Partitioned Matrices</title>
 
-  <ul marker="">
+  <page>
 
-    <li workspace="2in">
-      <p>(1) &#160; <m>A</m> and <m>B</m> are <m>n \times n</m> invertible matrices, <m>I_n</m> is the <m>n \times n</m> identity matrix, and <m>0</m> is the <m>n \times n</m> zero matrix. Construct an expression for <m>X</m> in terms of <m>A</m> and <m>B</m>.</p>
+    <exercise xml:id="section-2-4-ex-1" workspace="2in"><statement>
+      <p> <m>A</m> and <m>B</m> are <m>n \times n</m> invertible matrices, <m>I_n</m> is the <m>n \times n</m> identity matrix, and <m>0</m> is the <m>n \times n</m> zero matrix. Construct an expression for <m>X</m> in terms of <m>A</m> and <m>B</m>.</p>
 
       <p>
-        <me>
+        <md>
         \begin{pmatrix}
           A &amp; B 
         \end{pmatrix}
@@ -24,9 +24,9 @@
         \end{pmatrix}
         =
         B^2 + BAX
-        </me>
+        </md>
       </p>
-    </li>
+    </statement></exercise>
 
-  </ul>
-</handout>
+  </page>
+</worksheet>
