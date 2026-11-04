@@ -28,7 +28,7 @@
         A = QR =
         \begin{pmatrix}
           \tfrac{2}{3} &amp; -\tfrac{1}{3} \\
-          \tfrac{2}{3} &amp;  \tfrac{1}{3} \\
+          \tfrac{2}{3} &amp;  \tfrac{2}{3} \\
           \tfrac{1}{3} &amp; -\tfrac{2}{3}
         \end{pmatrix}
         \begin{pmatrix}
